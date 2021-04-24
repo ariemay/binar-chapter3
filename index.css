@@ -1,3 +1,46 @@
+/* 
+
+Global Setting
+1. Font
+*/
+
+
+/* Font */
+
+@font-face {
+font-family: 'Apercu';
+src: url('./assets/fonts/ApercuPro-Medium.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('./assets/fonts/ApercuPro-Regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('./assets/fonts/ApercuPro-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url('./assets/fonts/ApercuPro-Light.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+  
+
+body{
+    font-family: 'Apercu';
+    font-size: 15px;
+}
+
 .first-page {
     background-image: url("assets/main-bg.jpg"), linear-gradient(#eb01a5, #d13531);
     ;
