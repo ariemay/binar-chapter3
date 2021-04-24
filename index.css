@@ -1,0 +1,71 @@
+.first-page {
+    background-image: url("assets/main-bg.jpg"), linear-gradient(#eb01a5, #d13531);
+    ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.second-page {
+    background-image: url("assets/the-games-bg.jpg");
+    background-image: url("assets/the-games-bg.jpg"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.all-page {
+    height: 2000px;
+    background-color: black;
+}
+
+.custom-navbar {
+    height: 80px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+
+.logo {
+    font-size: xx-large;
+    color: white;
+}
+
+.menu-item {
+    color: white;
+    opacity: 1;
+}
+
+#baritem {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    #login-mobile {
+        display: block;
+    }
+    #login-web {
+        display: none;
+    }
+    #menu-mobile {
+        display: block;
+    }
+    #menu-web {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    #login-mobile {
+        display: none;
+    }
+    #login-web {
+        display: block;
+    }
+    #menu-mobile {
+        display: none;
+    }
+    #menu-web {
+        display: block;
+    }
+}
